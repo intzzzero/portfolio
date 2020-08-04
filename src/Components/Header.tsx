@@ -22,12 +22,12 @@ const HeaderContainer = styled.header`
 	height: 50px;
 	position: fixed;
 	top: 0;
-	background-color: #fff;
-	border-bottom: 1px solid rgba(0, 0, 0, 1);
+	background-color: rgba(255, 255, 255, 0.8);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 3vw;
+	border-bottom: 1px solid rgba(0, 0, 0, 1);
 
 	.menuIcon {
 		font-size: 25px;
