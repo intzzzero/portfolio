@@ -3,4 +3,5 @@
 - React.js
 - Hooks
 - Styled-components
+- TypeScript
 - gh-pages(deploy)
