@@ -20,8 +20,8 @@ function Main() {
 			{isMenuOpened ? <Menu handleMenu={handleMenu} /> : ''}
 			<Header handleMenu={handleMenu} />
 			<MainContainer onWheel={() => setScrollPosition(window.scrollY)} data-testid='MainContainer'>
-				{scrollPosition > 10 ? <Intro /> : ''}
-				{scrollPosition > 300 ? <Project /> : ''}
+				{scrollPosition > 0 ? <Intro /> : ''}
+				{scrollPosition > 400 ? <Project /> : ''}
 			</MainContainer>
 			<Footer />
 		</React.Fragment>
@@ -44,7 +44,7 @@ const GlobalStyles = createGlobalStyle`
 
 const MainContainer = styled.main`
 	width: 100%;
-	height: 200vh;
+	height: 300vh;
 	margin-top: 5vh;
 	overflow: hidden;
 `;

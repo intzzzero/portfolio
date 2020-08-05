@@ -2,29 +2,39 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 
-const Project = () => {
+function Project() {
 	return (
 		<ProjectContainer>
 			<iframe
 				src='https://www.youtube.com/embed/KTXLcmBhr-0'
 				allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
 			/>
+			<iframe
+				src='https://www.youtube.com/embed/PbSX27sZF-4'
+				allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+			/>
+			<iframe
+				src='https://www.youtube.com/embed/tIeM7EzcDEo'
+				allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+			/>
+			<iframe
+				src='https://www.youtube.com/embed/46TPg-dyv78'
+				allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+			/>
 		</ProjectContainer>
 	);
-};
+}
 
-const ProjectAnimation = keyframes`
-	0% {
-		left: -20vw;
-		opacity: 0;
-	}
-	50% {
-		opacity: 0.5;
-	}
-	100% {
-		left: 0;
-		opacity: 1;
-	}
+const VideoAnimation = keyframes`
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 `;
 
 const ProjectContainer = styled.article`
@@ -33,13 +43,17 @@ const ProjectContainer = styled.article`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	position: relative;
-	animation: ${ProjectAnimation} 0.5s ease-in-out;
+	animation: ${VideoAnimation} 1s ease-in-out;
 
 	iframe {
-		border: 1px solid rgba(0, 0, 0, 1);
+		border: 4px solid #313034;
+		background-color: #f7d928;
 		width: 750px;
 		height: 455px;
+		margin: 20px 0;
+		padding: 15px;
 	}
 
 	@media only screen and (max-width: 800px) {

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import { GrClose } from 'react-icons/gr';
+import { FaWindowClose } from 'react-icons/fa';
 
 interface Props {
 	handleMenu: () => void;
@@ -9,7 +9,7 @@ interface Props {
 function Menu({ handleMenu }: Props) {
 	return (
 		<MenuContainer>
-			<GrClose onClick={handleMenu} className='closeIcon' />
+			<FaWindowClose onClick={handleMenu} className='closeIcon' />
 		</MenuContainer>
 	);
 }
@@ -30,16 +30,17 @@ const MenuContainer = styled.aside`
 	height: 100vh;
 	position: fixed;
 	top: 0;
-	background-color: #fff;
+	background-color: #276cac;
 	z-index: 20;
 	padding: 0 3vh;
-	border-right: 1px solid rgba(0, 0, 0, 1);
+	border-right: 4px solid #313034;
 	animation: ${MenuAnimation} 0.3s ease-in-out;
 
 	.closeIcon {
 		margin-top: 15px;
-		font-size: 20px;
+		font-size: 25px;
 		cursor: pointer;
+		color: #313034;
 	}
 `;
 
