@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import profile from '../Images/apple-profile.png';
 
 function Intro() {
@@ -14,11 +14,28 @@ function Intro() {
 	);
 }
 
+const IntroAnimation = keyframes`
+	0% {
+		right: -20vw;
+		opacity: 0;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	100% {
+		right: 0;
+		opacity: 1;
+	}
+`;
+
 const IntroContainer = styled.article`
 	width: 100%;
+	margin-top: 10vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
+	animation: ${IntroAnimation} 0.5s ease-in-out;
 
 	img {
 		width: 300px;

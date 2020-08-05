@@ -4,6 +4,7 @@ import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import Menu from '../Components/Menu';
 import Intro from '../Components/Intro';
+import Project from '../Components/Project';
 
 function Main() {
 	const [ isMenuOpened, setIsMenuOpened ] = useState(false);
@@ -19,7 +20,8 @@ function Main() {
 			{isMenuOpened ? <Menu handleMenu={handleMenu} /> : ''}
 			<Header handleMenu={handleMenu} />
 			<MainContainer onWheel={() => setScrollPosition(window.scrollY)} data-testid='MainContainer'>
-				<Intro />
+				{scrollPosition > 10 ? <Intro /> : ''}
+				{scrollPosition > 300 ? <Project /> : ''}
 			</MainContainer>
 			<Footer />
 		</React.Fragment>
@@ -44,6 +46,7 @@ const MainContainer = styled.main`
 	width: 100%;
 	height: 200vh;
 	margin-top: 5vh;
+	overflow: hidden;
 `;
 
 export default Main;
