@@ -48,11 +48,11 @@ const ProjectContainer = styled.article`
 	animation: ${VideoAnimation} 1s ease-in-out;
 
 	iframe {
-		border: 4px solid #313034;
+		border: 5px solid #313034;
 		background-color: #f7d928;
 		width: 750px;
 		height: 455px;
-		margin: 20px 0;
+		margin: 15px 0;
 		padding: 15px;
 	}
 

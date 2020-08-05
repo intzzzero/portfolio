@@ -5,6 +5,8 @@ import Footer from '../Components/Footer';
 import Menu from '../Components/Menu';
 import Intro from '../Components/Intro';
 import Project from '../Components/Project';
+import Welcome from '../Components/Welcome';
+import Concept from '../Components/Concept';
 
 function Main() {
 	const [ isMenuOpened, setIsMenuOpened ] = useState(false);
@@ -28,8 +30,9 @@ function Main() {
 			{isMenuOpened ? <Menu handleMenu={handleMenu} /> : ''}
 			<Header handleMenu={handleMenu} />
 			<MainContainer data-testid='MainContainer'>
-				{scrollPosition > 0 ? <Intro /> : ''}
-				{scrollPosition > 400 ? <Project /> : ''}
+				{scrollPosition > 0 ? <Intro /> : <Welcome />}
+				{scrollPosition > 350 ? <Concept /> : ''}
+				{scrollPosition > 600 ? <Project /> : ''}
 			</MainContainer>
 			<Footer />
 		</React.Fragment>
@@ -52,7 +55,7 @@ const GlobalStyles = createGlobalStyle`
 
 const MainContainer = styled.main`
 	width: 100%;
-	height: 300vh;
+	height: 450vh;
 	margin-top: 5vh;
 	overflow: hidden;
 `;

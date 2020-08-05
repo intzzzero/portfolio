@@ -27,7 +27,7 @@ const HeaderContainer = styled.header`
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 3vw;
-	border-bottom: 4px solid #313034;
+	border: 5px solid #313034;
 	z-index: 10;
 
 	.menuIcon {
