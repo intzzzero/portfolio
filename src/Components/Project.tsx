@@ -62,6 +62,14 @@ const ProjectContainer = styled.article`
 			height: 315px;
 		}
 	}
+	@media only screen and (max-width: 400px) {
+		iframe {
+			width: 370px;
+			height: 200px;
+			margin: 10px 0;
+			padding: 5px;
+		}
+	}
 `;
 
 export default Project;

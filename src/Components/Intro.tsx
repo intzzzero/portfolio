@@ -60,6 +60,11 @@ const IntroContainer = styled.article`
 	@media only screen and (max-width: 800px) {
 		flex-direction: column;
 	}
+	@media only screen and (max-width: 400px) {
+		div {
+			width: 330px;
+		}
+	}
 `;
 
 export default Intro;
