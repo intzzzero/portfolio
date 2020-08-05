@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
@@ -10,6 +10,14 @@ function Main() {
 	const [ isMenuOpened, setIsMenuOpened ] = useState(false);
 	const [ scrollPosition, setScrollPosition ] = useState(0);
 
+	useEffect(() => {
+		window.addEventListener('scroll', handleScroll);
+	});
+
+	const handleScroll = () => {
+		setScrollPosition(window.scrollY);
+	};
+
 	const handleMenu = () => {
 		setIsMenuOpened(!isMenuOpened);
 	};
@@ -19,7 +27,7 @@ function Main() {
 			<GlobalStyles />
 			{isMenuOpened ? <Menu handleMenu={handleMenu} /> : ''}
 			<Header handleMenu={handleMenu} />
-			<MainContainer onWheel={() => setScrollPosition(window.scrollY)} data-testid='MainContainer'>
+			<MainContainer data-testid='MainContainer'>
 				{scrollPosition > 0 ? <Intro /> : ''}
 				{scrollPosition > 400 ? <Project /> : ''}
 			</MainContainer>
