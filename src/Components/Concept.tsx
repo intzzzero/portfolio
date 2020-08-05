@@ -48,8 +48,11 @@ const ConceptContainer = styled.article`
 		}
 
 		p {
-			margin-top: 25px;
+			text-align: left;
+			margin-top: 20px;
+			line-height: 28px;
 			font-size: 16px;
+			padding: 0 20px;
 			color: #313034;
 		}
 	}
