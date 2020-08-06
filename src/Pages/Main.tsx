@@ -55,7 +55,7 @@ const GlobalStyles = createGlobalStyle`
 
 const MainContainer = styled.main`
 	width: 100%;
-	height: 450vh;
+	height: 880vh;
 	margin-top: 5vh;
 	overflow: hidden;
 `;

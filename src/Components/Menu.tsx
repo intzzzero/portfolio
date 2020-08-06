@@ -84,16 +84,14 @@ const MenuContainer = styled.aside`
 	}
 
 	div {
-		height: 100%;
-		margin-top: 15vh;
-
+		margin-top: 20vh;
 		ul {
 			li {
 				list-style: none;
 				a {
 					display: flex;
 					justify-content: flex-start;
-					margin-bottom: 15px;
+					margin-bottom: 20px;
 					font-size: 20px;
 					font-weight: 600;
 					cursor: pointer;
