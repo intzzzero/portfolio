@@ -26,8 +26,6 @@ const WelcomeContainer = styled.section`
 		width: 100%;
 		height: 30vh;
 		border: 5px solid #313034;
-		border-right: none;
-		border-left: none;
 
 		div {
 			width: 30%;
@@ -44,8 +42,6 @@ const WelcomeContainer = styled.section`
 		border-top: none;
 		display: flex;
 		justify-content: flex-end;
-		border-right: none;
-		border-left: none;
 
 		div {
 			width: 60%;
@@ -60,8 +56,6 @@ const WelcomeContainer = styled.section`
 		height: 20vh;
 		border: 5px solid #313034;
 		border-top: none;
-		border-right: none;
-		border-left: none;
 
 		div {
 			width: 60%;
