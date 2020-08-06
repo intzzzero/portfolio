@@ -33,8 +33,8 @@ function Main() {
 				{scrollPosition > 0 ? <Intro /> : <Welcome />}
 				{scrollPosition > 350 ? <Concept /> : ''}
 				{scrollPosition > 600 ? <Project /> : ''}
+				<Footer />
 			</MainContainer>
-			<Footer />
 		</React.Fragment>
 	);
 }
@@ -55,7 +55,7 @@ const GlobalStyles = createGlobalStyle`
 
 const MainContainer = styled.main`
 	width: 100%;
-	height: 900vh;
+	height: 880vh;
 	margin-top: 5vh;
 	overflow: hidden;
 	border: 5px solid #313034;
@@ -64,7 +64,7 @@ const MainContainer = styled.main`
 		height: 800vh;
 	}
 	@media only screen and (max-width: 400px) {
-		height: 740vh;
+		height: 760vh;
 	}
 `;
 

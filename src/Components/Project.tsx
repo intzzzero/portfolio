@@ -185,8 +185,8 @@ function Project() {
 				<img src='https://github.com/codeAmeba/westagram/raw/master/img/screenshot.png' alt='mini game' />
 				<h4>소개</h4>
 				<p>
-					인스타그램의 로그인 화면과 피드 화면을 바닐라 자바스크립트로 구현한 프로젝트입니다. 전체 코드를 즉시실행함수(IIFE)로 감싸 모듈화를 하였으며, 중점적으로 신경을 쓴 부분은
-					검색창에 키워드 입력 시 자동완성 키워드 리스트의 등장, 댓글 추가와 삭제, 더블클릭 좋아요 시 등장하는 하트 애니메이션입니다.{' '}
+					인스타그램의 로그인 화면과 피드 화면을 반응형 웹으로 구현한 프로젝트입니다. 전체 코드를 즉시실행함수(IIFE)로 감싸 모듈화를 하였으며, 중점적으로 신경을 쓴 부분은 검색창에
+					키워드 입력 시 자동완성 키워드 리스트의 등장, 댓글 추가와 삭제, 더블클릭 좋아요 시 등장하는 하트 애니메이션입니다.{' '}
 					<a href='https://codeameba.github.io/westagram/' target='_blank' rel='noopener noreferrer'>
 						링크로 이동
 					</a>하여 체험하실 수 있습니다.
