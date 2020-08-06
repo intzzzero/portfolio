@@ -26,7 +26,6 @@ function Main() {
 
 	return (
 		<React.Fragment>
-			<GlobalStyles />
 			{isMenuOpened ? <Menu handleMenu={handleMenu} /> : ''}
 			<Header handleMenu={handleMenu} />
 			<MainContainer data-testid='MainContainer'>
@@ -35,6 +34,7 @@ function Main() {
 				{scrollPosition > 600 ? <Project /> : ''}
 				<Footer />
 			</MainContainer>
+			<GlobalStyles />
 		</React.Fragment>
 	);
 }
@@ -55,7 +55,7 @@ const GlobalStyles = createGlobalStyle`
 
 const MainContainer = styled.main`
 	width: 100%;
-	height: 880vh;
+	height: 900vh;
 	margin-top: 5vh;
 	overflow: hidden;
 	border: 5px solid #313034;
