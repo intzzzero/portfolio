@@ -32,8 +32,8 @@ function Main() {
 				{scrollPosition > 0 ? <Intro /> : <Welcome />}
 				{scrollPosition > 350 ? <Concept /> : ''}
 				{scrollPosition > 600 ? <Project /> : ''}
-				<Footer />
 			</MainContainer>
+			<Footer />
 			<GlobalStyles />
 		</React.Fragment>
 	);
@@ -58,7 +58,6 @@ const MainContainer = styled.main`
 	height: 900vh;
 	margin-top: 5vh;
 	overflow: hidden;
-	border: 5px solid #313034;
 
 	@media only screen and (max-width: 800px) {
 		height: 800vh;
