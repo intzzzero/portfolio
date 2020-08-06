@@ -55,9 +55,17 @@ const GlobalStyles = createGlobalStyle`
 
 const MainContainer = styled.main`
 	width: 100%;
-	height: 880vh;
+	height: 900vh;
 	margin-top: 5vh;
 	overflow: hidden;
+	border: 5px solid #313034;
+
+	@media only screen and (max-width: 800px) {
+		height: 800vh;
+	}
+	@media only screen and (max-width: 400px) {
+		height: 740vh;
+	}
 `;
 
 export default Main;
