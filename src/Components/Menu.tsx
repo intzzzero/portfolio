@@ -15,19 +15,19 @@ function Menu({ handleMenu }: Props) {
 			<div>
 				<ul>
 					<li>
-						<a href='https://codeameba.netlify.app/' target='_blank' rel='noopener noreferrer'>
+						<a href='https://intzzzero.netlify.app/' target='_blank' rel='noopener noreferrer'>
 							<FaBloggerB />
 							<span>Blog</span>
 						</a>
 					</li>
 					<li>
-						<a href='https://github.com/codeAmeba' target='_blank' rel='noopener noreferrer'>
+						<a href='https://github.com/intzzzero' target='_blank' rel='noopener noreferrer'>
 							<AiFillGithub />
 							<span>Github</span>
 						</a>
 					</li>
 					<li>
-						<a href='https://www.instagram.com/aprilgreenery/' target='_blank' rel='noopener noreferrer'>
+						<a href='https://www.instagram.com/intzzzero/' target='_blank' rel='noopener noreferrer'>
 							<AiFillInstagram />
 							<span>Instagram</span>
 						</a>
@@ -40,7 +40,7 @@ function Menu({ handleMenu }: Props) {
 					</li>
 					<li>
 						<a
-							href='https://codeameba.github.io/front-end-practice/'
+							href='https://intzzzero.github.io/front-end-practice/'
 							target='_blank'
 							rel='noopener noreferrer'
 						>

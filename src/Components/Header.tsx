@@ -11,7 +11,7 @@ function Header({ handleMenu }: Props) {
 		<HeaderContainer>
 			<TiThMenu className='menuIcon' onClick={handleMenu} />
 			<a href='/'>
-				<h1>codeAmeba's Portfolio</h1>
+				<h1>intzzzero's Portfolio</h1>
 			</a>
 		</HeaderContainer>
 	);

@@ -13,7 +13,7 @@ function Project() {
 			<div className='bookjournalism'>
 				<h3>
 					북저널리즘(<a
-						href='https://github.com/codeAmeba/bookjournalism-clone-with-tdd'
+						href='https://github.com/intzzzero/bookjournalism-clone-with-tdd'
 						target='_blank'
 						rel='noopener noreferrer'
 					>
@@ -28,7 +28,7 @@ function Project() {
 				<p>
 					켄트 벡의 테스트 주도 개발을 읽으며 TDD를 경험해보고 싶어 테스트코드를 작성한 만큼만 구현한다는 TDD 원칙에 입각하여 진행중인 개인프로젝트입니다. 평소 즐겨 보는
 					북저널리즘이라는 사이트를 클론하고 있습니다. 자세한 내용은{' '}
-					<a href='https://codeameba.netlify.app/blog/i-want-tdd' target='_blank' rel='noopener noreferrer'>
+					<a href='https://intzzzero.netlify.app/blog/i-want-tdd' target='_blank' rel='noopener noreferrer'>
 						블로그에 포스팅
 					</a>
 					하였습니다.
@@ -45,7 +45,7 @@ function Project() {
 			<div className='kartrider'>
 				<h3>
 					카트라이더 TMI(<a
-						href='https://github.com/codeAmeba/kartrider-tmi-clone'
+						href='https://github.com/intzzzero/kartrider-tmi-clone'
 						target='_blank'
 						rel='noopener noreferrer'
 					>
@@ -62,7 +62,7 @@ function Project() {
 					React의 함수형 컴포넌트로 제작했으며, Hooks와 Styled-component를 사용했습니다. 데이터 시각화를 경험해볼 수 있는 좋은 기회였고, 그래프는 Chart.js를
 					통해 구현하였습니다.{' '}
 					<a
-						href='https://codeameba.netlify.app/blog/after-second-project-with-wecode'
+						href='https://intzzzero.netlify.app/blog/after-second-project-with-wecode'
 						target='_blank'
 						rel='noopener noreferrer'
 					>
@@ -84,7 +84,7 @@ function Project() {
 			<div className='chanel'>
 				<h3>
 					샤넬(<a
-						href='https://github.com/codeAmeba/chanel-clone-frontend'
+						href='https://github.com/intzzzero/chanel-clone-frontend'
 						target='_blank'
 						rel='noopener noreferrer'
 					>
@@ -101,7 +101,7 @@ function Project() {
 					Lifecycle을 명시적으로 알 수 있는 메서드를 활용하며 동작원리를 익히기 위한 목적이 컸습니다. 위시리스트의 상태를 boolean으로 관리하여 동일한 POST로 추가와 삭제를
 					구현할 수 있었습니다.{' '}
 					<a
-						href='https://codeameba.netlify.app/blog/after-first-project-with-wecode'
+						href='https://intzzzero.netlify.app/blog/after-first-project-with-wecode'
 						target='_blank'
 						rel='noopener noreferrer'
 					>
@@ -124,7 +124,7 @@ function Project() {
 			<div>
 				<h3>
 					패스트플릭스(<a
-						href='https://github.com/codeAmeba/FASTFLIX-with-Angular'
+						href='https://github.com/intzzzero/FASTFLIX-with-Angular'
 						target='_blank'
 						rel='noopener noreferrer'
 					>
@@ -155,17 +155,17 @@ function Project() {
 			</h2>
 			<div>
 				<h3>
-					유령을 피해라(<a href='https://github.com/codeAmeba/enemy-rain' target='_blank' rel='noopener noreferrer'>
+					유령을 피해라(<a href='https://github.com/intzzzero/enemy-rain' target='_blank' rel='noopener noreferrer'>
 						repo
 					</a>)
 				</h3>
-				<img src='https://github.com/codeAmeba/enemy-rain/raw/master/images/play.png' alt='mini game' />
+				<img src='https://github.com/intzzzero/enemy-rain/raw/master/images/play.png' alt='mini game' />
 				<h4>소개</h4>
 				<p>
 					제한 시간 60초 동안 플레이어는 상, 하, 좌, 우 방향키를 통해 이동할 수 있습니다. 유령은 1초마다 랜덤한 위치로 이동하며, 플레이어가 유령과 직선상으로 동일한 위치에 있을
 					경우 'WARNING!!!'이 출력됩니다. 진한 빨간색으로 표시된 유령의 반경으로 플레이어가 진입 시 'YOU DIE!!!'가 출력되며, 카운트다운과 유령의 움직임이 멈춥니다.
 					만약, 플레이어가 60초 동안 생존할 경우 'YOU SURVIVE!!!'가 출력되며 카운트다운과 유령의 움직임 멈춥니다.{' '}
-					<a href='https://codeameba.github.io/enemy-rain/' target='_blank' rel='noopener noreferrer'>
+					<a href='https://intzzzero.github.io/enemy-rain/' target='_blank' rel='noopener noreferrer'>
 						게임 플레이 링크
 					</a>를 통해 체험하실 수 있습니다.
 				</p>
@@ -178,16 +178,16 @@ function Project() {
 			</div>
 			<div>
 				<h3>
-					인스타그램(<a href='https://github.com/codeAmeba/westagram' target='_blank' rel='noopener noreferrer'>
+					인스타그램(<a href='https://github.com/intzzzero/westagram' target='_blank' rel='noopener noreferrer'>
 						repo
 					</a>)
 				</h3>
-				<img src='https://github.com/codeAmeba/westagram/raw/master/img/screenshot.png' alt='mini game' />
+				<img src='https://github.com/intzzzero/westagram/raw/master/img/screenshot.png' alt='mini game' />
 				<h4>소개</h4>
 				<p>
 					인스타그램의 로그인 화면과 피드 화면을 반응형 웹으로 구현한 프로젝트입니다. 전체 코드를 즉시실행함수(IIFE)로 감싸 모듈화를 하였으며, 중점적으로 신경을 쓴 부분은 검색창에
 					키워드 입력 시 자동완성 키워드 리스트의 등장, 댓글 추가와 삭제, 더블클릭 좋아요 시 등장하는 하트 애니메이션입니다.{' '}
-					<a href='https://codeameba.github.io/westagram/' target='_blank' rel='noopener noreferrer'>
+					<a href='https://intzzzero.github.io/westagram/' target='_blank' rel='noopener noreferrer'>
 						링크로 이동
 					</a>하여 체험하실 수 있습니다.
 				</p>
