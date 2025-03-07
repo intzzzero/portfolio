@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.3b184121.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3b184121.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.8cc6ee66.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8cc6ee66.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b649af6b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b649af6b.js.map",
     "static/js/2.3779f737.chunk.js": "/portfolio/static/js/2.3779f737.chunk.js",
     "static/js/2.3779f737.chunk.js.map": "/portfolio/static/js/2.3779f737.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.4bf3d4bfa8472f734b1cd2e36f772a80.js": "/portfolio/precache-manifest.4bf3d4bfa8472f734b1cd2e36f772a80.js",
+    "precache-manifest.d0209c9679762492ca52697246f6a569.js": "/portfolio/precache-manifest.d0209c9679762492ca52697246f6a569.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/js/2.3779f737.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3779f737.chunk.js.LICENSE.txt",
     "static/media/apple-profile.png": "/portfolio/static/media/apple-profile.31d141e3.png"
@@ -15,6 +15,6 @@
   "entrypoints": [
     "static/js/runtime-main.b649af6b.js",
     "static/js/2.3779f737.chunk.js",
-    "static/js/main.3b184121.chunk.js"
+    "static/js/main.8cc6ee66.chunk.js"
   ]
 }
